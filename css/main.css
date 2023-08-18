@@ -1,0 +1,87 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  z-index: 999;
+}
+
+.fonte-media {
+  color: rgb(114, 114, 114);
+  font-weight: 500;
+}
+
+.fonte-clara {
+  color: rgb(173, 168, 168);
+}
+
+figure {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.nrf-img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.rect1 {
+  width: 50%;
+  height: 7px;
+  background: linear-gradient(to right, #e62259, #6a5ba3);
+  margin-bottom: 7%;
+}
+
+.propagandas {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+#nba-img {
+  width: 100%;
+}
+
+.rect2 {
+  width: 60%;
+  height: 7px;
+  background: linear-gradient(to right, #76c6cf, #675fa6);
+  margin-bottom: 5%;
+}
+
+#whats-img {
+  width: 100%;
+}
+
+.rect3 {
+  width: 60%;
+  height: 7px;
+  background: linear-gradient(to right, #75c7cf, #38b388);
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width: 588px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .rect1 {
+    width: 45%;
+  }
+
+  .rect2, .rect3 {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .rect2, .rect3 {
+    width: 100%;
+  }
+}

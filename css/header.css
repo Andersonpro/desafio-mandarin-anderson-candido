@@ -1,0 +1,74 @@
+header {
+  margin-top: 2.5%;
+  margin-bottom: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-image: url('../assets/reactangle.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.circulo {
+  width: 25%;
+  position: absolute;
+  height: auto;
+  top: 5vw;
+  left: -9vw;
+}
+
+.manda-trends {
+ width: 35%;
+ height: auto;
+ margin-left: 5%;
+}
+
+.bolinhas {
+  width: 5%;
+  position: absolute;
+  height: auto;
+  top: 20.2vw;
+}
+
+.mulher {
+  position: absolute;
+  width: 23%;
+  height: auto;
+  top: 10vw;
+  left: 47vw;
+}
+
+.vetor {
+  width: 7%;
+  height: auto;
+  position: absolute;
+  top: 5vw;
+  left: 47vw;
+}
+
+.nrf2020 {
+  width: 20%;
+  height: auto;
+  position: absolute;
+  top: 8vw;
+  left: 72vw;
+}
+
+.triangle {
+  width: 4%;
+  height: auto;
+  position: absolute;
+  top: 3vw;
+  left: 91vw;
+}
+
+.zigzag {
+  width: 13%;
+  height: auto;
+  position: absolute;
+  top: 20vw;
+  left: 79vw;
+}
